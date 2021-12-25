@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkurator</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <div class="container">
+        <main>
+            <form method="post" action="">
+            <h1>Kalkurator</h1>
+            <input type="text" name="value" id="value">
+            <table>
+                <tr>
+                    <td>
+                        <input type="button" value="C" class="btn" onclick="jernih()">
+                    </td>
+                    <td>
+                        <input type="button" value="Delet" class="btn" onclick="hapus()">
+                    </td>
+                    <td>
+                        <input type="button" value="/" class="btn" onclick="bersaing('/')">
+                    </td>
+                    <td>
+                        <input type="button" value="x" class="btn" onclick="bersaing('*')">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="7" class="btn" onclick="bersaing('7')">
+                    </td>
+                    <td>
+                        <input type="button" value="8" class="btn" onclick="bersaing('8')">
+                    </td>
+                    <td>
+                        <input type="button" value="9" class="btn" onclick="bersaing('9')">
+                    </td>
+                    <td>
+                        <input type="button" value="-" class="btn" onclick="bersaing('-')">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="4" class="btn" onclick="bersaing('4')">
+                    </td>
+                    <td>
+                        <input type="button" value="5" class="btn" onclick="bersaing('5')">
+                    </td>
+                    <td>
+                        <input type="button" value="6" class="btn" onclick="bersaing('6')">
+                    </td>
+                    <td>
+                        <input type="button" value="+" class="btn" onclick="bersaing('+')">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="1" class="btn" onclick="bersaing('1')">
+                    </td>
+                    <td>
+                        <input type="button" value="2" class="btn" onclick="bersaing('2')">
+                    </td>
+                    <td>
+                        <input type="button" value="3" class="btn" onclick="bersaing('3')">
+                    </td>
+                    <td>
+                        <input type="button" value="^" class="btn" onclick="bersaing('**')">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="0" class="btn" onclick="bersaing('0')">
+                    </td>
+                    <td >
+                        <input type="button" value="=" class="btn" onclick="hitung('=')">
+                    </td>
+                </tr>
+            </table>
+        </from>
+    </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

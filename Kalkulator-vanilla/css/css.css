@@ -1,0 +1,31 @@
+body {
+  background-color: yellow;
+}
+.container {
+  max-width: 17.1em;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin: 5px;
+}
+main {
+  box-shadow: 0 0 0 5px rgb(184, 184, 3), 0 0 0 10px rgb(155, 155, 5), 0 0 0 15px rgb(131, 131, 4);
+}
+.btn {
+  width: 5em;
+  height: 5em;
+  margin: 0.1em;
+  border: none;
+  cursor: pointer;
+}
+#value {
+  width: 20em;
+  height: 1.2em;
+  margin: 0.1em;
+  padding: 0.5em 0.2em;
+  /* box-sizing: border-box; */
+}
