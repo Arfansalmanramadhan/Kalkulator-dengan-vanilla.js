@@ -1,11 +1,5 @@
 function bersaing(angka) {
-  let menampilkan = document.getElementById("value").value;
-  if (menampilkan == "0") {
-    menampilkan = angka;
-  } else {
-    menampilkan += angka;
-  }
-  document.getElementById("value").value = menampilkan;
+  document.getElementById("value").value = document.getElementById("value").value + angka;
 }
 function hitung() {
   let hitung = document.getElementById("value").value;
