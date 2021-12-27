@@ -38,3 +38,9 @@ fanction tambah(a,b){
 tambah(12,11);
 #+END_SRC
 
+*** DOM JavaScript
+DOM adalah menampilkan object dari srtuktur halaman web, serta bagian dari web API
+
+Lebih lanjut tentang DOM bisa kunjungi website  di bawah ini.
+
+[[https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model][https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model]]
