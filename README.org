@@ -1,0 +1,40 @@
+#+TITLE: Kalkulator-dengan-vanilla.js
+
+Belajar membuat kalkulator dengan vanilla Javascript
+
+Sebelum kita membuat todo list, alangkah lebih baiknya, kita pahami terlebih dahulu syntaxs JavaScript.
+
+* Syntaxs JavaScript
+
+*** Variable
+Variable adalah tempat untuk menyimpan data, dengan menyimpan data ke variable, kita bisa menggnakan lagi dengan menyebut nama variable nya.
+
+Contoh membuat variable
+#+BEGIN_SRC shell
+var a = 123;
+let b = "halo dunia";
+const c = true
+#+END_SRC
+
+*** If
+If untuk membuat penyataan jika kondisi benar atau jika kondisi salah.
+
+Contoh membuat if
+#+BEGIN_SRC shell
+if(6.5 > 7){
+    concole.log("lulus");
+} else {
+    console.log("tidak lulus");
+}
+#+END_SRC
+
+*** Function
+Function merupakan satu blok program atua kode yang akan berjalan saat kita panggil.
+Contoh Membuat function
+#+BEGIN_SRC shell
+fnction tambah(a,b){
+    return a + b;
+}
+tambah(12,11);
+#+END_SRC
+
