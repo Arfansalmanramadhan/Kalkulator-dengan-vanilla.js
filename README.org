@@ -2,7 +2,7 @@
 
 Belajar membuat kalkulator dengan vanilla Javascript
 
-Sebelum kita membuat todo list, alangkah lebih baiknya, kita pahami terlebih dahulu syntaxs JavaScript.
+Sebelum kita membuat Kalkulator, alangkah lebih baiknya, kita pahami terlebih dahulu syntaxs JavaScript.
 
 * Syntaxs JavaScript
 
