@@ -32,7 +32,7 @@ if(6.5 > 7){
 Function merupakan satu blok program atua kode yang akan berjalan saat kita panggil.
 Contoh Membuat function
 #+BEGIN_SRC shell
-fnction tambah(a,b){
+fanction tambah(a,b){
     return a + b;
 }
 tambah(12,11);
