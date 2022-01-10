@@ -7,7 +7,7 @@ Sebelum kita membuat Kalkulator, alangkah lebih baiknya, kita pahami terlebih da
 * Syntaxs JavaScript
 
 *** Variable
-Variable adalah tempat untuk menyimpan data, dengan menyimpan data ke variable, kita bisa menggnakan lagi dengan menyebut nama variable nya.
+Variable adalah tempat untuk menyimpan data, dengan menyimpan data ke variable, kita bisa memangnggnakan lagi dengan menyebut nama variable nya.
 
 Contoh membuat variable
 #+BEGIN_SRC shell
